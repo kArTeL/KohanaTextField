@@ -7,11 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14406FAF207684CF004294E2 /* KohanaTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4DF9E81E8DCA6F00CFB79A /* KohanaTextField.framework */; };
+		14406FB0207684CF004294E2 /* KohanaTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4DF9E81E8DCA6F00CFB79A /* KohanaTextField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14B7A2012075957D00C09AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7A2002075957D00C09AE5 /* AppDelegate.swift */; };
+		14B7A2032075957D00C09AE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7A2022075957D00C09AE5 /* ViewController.swift */; };
+		14B7A2062075957D00C09AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B7A2042075957D00C09AE5 /* Main.storyboard */; };
+		14B7A2082075957D00C09AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B7A2072075957D00C09AE5 /* Assets.xcassets */; };
+		14B7A20B2075957D00C09AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B7A2092075957D00C09AE5 /* LaunchScreen.storyboard */; };
 		8C4DF9ED1E8DCA6F00CFB79A /* KohanaTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4DF9EB1E8DCA6F00CFB79A /* KohanaTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C4DF9F41E8DCAA000CFB79A /* KohanaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4DF9F31E8DCAA000CFB79A /* KohanaTextField.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		14406FAB20767C43004294E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4DF9DF1E8DCA6F00CFB79A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4DF9E71E8DCA6F00CFB79A;
+			remoteInfo = KohanaTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		14406FB1207684D0004294E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14406FB0207684CF004294E2 /* KohanaTextField.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		14B7A1FE2075957D00C09AE5 /* KohanaTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KohanaTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B7A2002075957D00C09AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14B7A2022075957D00C09AE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14B7A2052075957D00C09AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B7A2072075957D00C09AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B7A20A2075957D00C09AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B7A20C2075957D00C09AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4DF9E81E8DCA6F00CFB79A /* KohanaTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KohanaTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4DF9EB1E8DCA6F00CFB79A /* KohanaTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KohanaTextField.h; sourceTree = "<group>"; };
 		8C4DF9EC1E8DCA6F00CFB79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -19,6 +57,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		14B7A1FB2075957D00C09AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14406FAF207684CF004294E2 /* KohanaTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C4DF9E41E8DCA6F00CFB79A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,11 +75,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14406FA920767BF9004294E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14B7A1FF2075957D00C09AE5 /* KohanaTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				14B7A2002075957D00C09AE5 /* AppDelegate.swift */,
+				14B7A2022075957D00C09AE5 /* ViewController.swift */,
+				14B7A2042075957D00C09AE5 /* Main.storyboard */,
+				14B7A2072075957D00C09AE5 /* Assets.xcassets */,
+				14B7A2092075957D00C09AE5 /* LaunchScreen.storyboard */,
+				14B7A20C2075957D00C09AE5 /* Info.plist */,
+			);
+			path = KohanaTextFieldDemo;
+			sourceTree = "<group>";
+		};
 		8C4DF9DE1E8DCA6F00CFB79A = {
 			isa = PBXGroup;
 			children = (
 				8C4DF9EA1E8DCA6F00CFB79A /* KohanaTextField */,
+				14B7A1FF2075957D00C09AE5 /* KohanaTextFieldDemo */,
 				8C4DF9E91E8DCA6F00CFB79A /* Products */,
+				14406FA920767BF9004294E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				8C4DF9E81E8DCA6F00CFB79A /* KohanaTextField.framework */,
+				14B7A1FE2075957D00C09AE5 /* KohanaTextFieldDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +138,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		14B7A1FD2075957D00C09AE5 /* KohanaTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B7A20F2075957D00C09AE5 /* Build configuration list for PBXNativeTarget "KohanaTextFieldDemo" */;
+			buildPhases = (
+				14B7A1FA2075957D00C09AE5 /* Sources */,
+				14B7A1FB2075957D00C09AE5 /* Frameworks */,
+				14B7A1FC2075957D00C09AE5 /* Resources */,
+				14406FB1207684D0004294E2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14406FAC20767C43004294E2 /* PBXTargetDependency */,
+			);
+			name = KohanaTextFieldDemo;
+			productName = KohanaTextFieldDemo;
+			productReference = 14B7A1FE2075957D00C09AE5 /* KohanaTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8C4DF9E71E8DCA6F00CFB79A /* KohanaTextField */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C4DF9F01E8DCA6F00CFB79A /* Build configuration list for PBXNativeTarget "KohanaTextField" */;
@@ -93,10 +181,17 @@
 		8C4DF9DF1E8DCA6F00CFB79A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0810;
 				TargetAttributes = {
+					14B7A1FD2075957D00C09AE5 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = WBJ5G347V7;
+						ProvisioningStyle = Automatic;
+					};
 					8C4DF9E71E8DCA6F00CFB79A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WBJ5G347V7;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -108,6 +203,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8C4DF9DE1E8DCA6F00CFB79A;
 			productRefGroup = 8C4DF9E91E8DCA6F00CFB79A /* Products */;
@@ -115,11 +211,22 @@
 			projectRoot = "";
 			targets = (
 				8C4DF9E71E8DCA6F00CFB79A /* KohanaTextField */,
+				14B7A1FD2075957D00C09AE5 /* KohanaTextFieldDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		14B7A1FC2075957D00C09AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B7A20B2075957D00C09AE5 /* LaunchScreen.storyboard in Resources */,
+				14B7A2082075957D00C09AE5 /* Assets.xcassets in Resources */,
+				14B7A2062075957D00C09AE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C4DF9E61E8DCA6F00CFB79A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +237,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		14B7A1FA2075957D00C09AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B7A2032075957D00C09AE5 /* ViewController.swift in Sources */,
+				14B7A2012075957D00C09AE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C4DF9E31E8DCA6F00CFB79A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,7 +256,96 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		14406FAC20767C43004294E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4DF9E71E8DCA6F00CFB79A /* KohanaTextField */;
+			targetProxy = 14406FAB20767C43004294E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14B7A2042075957D00C09AE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B7A2052075957D00C09AE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B7A2092075957D00C09AE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B7A20A2075957D00C09AE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		14B7A20D2075957D00C09AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBJ5G347V7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KohanaTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neil.KohanaTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B7A20E2075957D00C09AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBJ5G347V7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = KohanaTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neil.KohanaTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8C4DF9EE1E8DCA6F00CFB79A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -247,8 +452,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WBJ5G347V7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -268,8 +475,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WBJ5G347V7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -286,6 +495,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		14B7A20F2075957D00C09AE5 /* Build configuration list for PBXNativeTarget "KohanaTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B7A20D2075957D00C09AE5 /* Debug */,
+				14B7A20E2075957D00C09AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C4DF9E21E8DCA6F00CFB79A /* Build configuration list for PBXProject "KohanaTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
